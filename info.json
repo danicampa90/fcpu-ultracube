@@ -1,0 +1,13 @@
+{
+    "name": "fcpu-ultracube",
+    "version": "0.0.1",
+    "title": "fcpu-ultracube",
+    "description": "Allows the fCPU to be crafted in ultracube",
+    "author": "TomatoCo",
+    "contact": "TomatoSoup",
+    "factorio_version": "2.0",
+    "dependencies": [
+        "fcpu",
+        "Ultracube"
+    ]
+}
