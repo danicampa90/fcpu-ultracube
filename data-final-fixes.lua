@@ -1,3 +1,5 @@
+
+--- Technology
 data.raw.technology["fcpu"].unit = {
   count = 200,
   ingredients = {
@@ -9,9 +11,11 @@ data.raw.technology["fcpu"].unit = {
 }
 data.raw.technology["fcpu"].prerequisites = {"cube-spectral-processor"}
 
--- Make it cost 5 combinators of each type.
+--- Recipe
 data.raw.recipe.fcpu.ingredients = {
    {type = "item", name = "arithmetic-combinator", amount = 10},
    {type = "item", name = "decider-combinator", amount = 10},
    {type = "item", name = "cube-spectral-processor", amount = 1}
 }
+
+data.raw.recipe.fcpu.category = "cube-fabricator-handcraft"
